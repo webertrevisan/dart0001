@@ -1,6 +1,11 @@
-void main(){
+import 'dart:developer';
 
-  while (condition) {
+void main() {
+  double valor = 0.5;
+
+  while (valor <= 10.0) {
+    print("O valor é $valor");
+    valor++;
     
   }
 }
